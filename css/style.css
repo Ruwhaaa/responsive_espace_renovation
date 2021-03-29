@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "Lato";
+    src: url("/../font/Lato/Lato-Regular.ttf") format("ttf");
+}
+
+body {
+    font-family: "Lato";
+    width: 100%;
+    color: white;
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 145px;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    background-color: #112E3E;
+}
+
+header>img {
+    position: relative;
+    left: 60px;
+    height: 98px;
+    width: auto;
+}
+
+nav>ul {
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    display: flex;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 18px;
+    padding-right: 22px;
+    padding-left: 22px;
+    letter-spacing: 0.15rem;
+    border-right: 1px solid white;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+}
+
+nav>ul>li>a:hover {
+    transition: color 1s ease;
+    color: #edd154;
+}
+
+nav>ul>li:last-child>a {
+    border-right: none;
+}
+
+.swiper-container  {
+    width: 100%;
+}
+
+.swiper-slide>img {
+    width: 100%;
+}
+
+.sniper-wrapper {
+    width: 100%;
+}
+
+.swiper-slide>h2 {
+    position: absolute;
+    text-transform: uppercase;
+    line-height: 52px;
+    letter-spacing: 0.35rem;
+    font-size: 37px;
+    font-weight: 500;
+    top: 250px;
+    left: 200px;
+}
+
+.yellow {
+    font-size: 37px;
+    line-height: 37px;
+    color: #edd154;
+    font-weight: 700;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    position: relative;
+    bottom: 150px;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+}
+
+.detail>h2 {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 30px;
+    color: #112e3e;
+}
+
+.detail>h3 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 40px;
+    line-height: 20px;
+    color: #112e3e;
+}
+
+.detail>p {
+    text-align: center;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 15px;
+    color: #112e3e;
+}
+
+.detail>p>.black {
+    font-weight: 900;
+}
+
+.devis {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.carte {
+    width: 27%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carte>img {
+    height: 90px;
+    width: 90px;
+}
+
+.carte>h3 {
+    font-weight: 600;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    color: #112e3e;
+}
+
+.carte>p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 29px;
+    color: #112e3e;
+}
+
+.rdv {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #112E3E;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 20px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.rdv:hover {
+    transition: background-color 1s ease;
+    background-color: #184258;
+}
+
+.real {
+    display: flex;
+    flex-direction: column;
+}
+
+.real-img>img {
+    max-height: 350px;
+    max-width: 430px;
+}
+
+.real>h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #112e3e;
+}
+
+.real>h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #112e3e;
+}
+
+.real-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.real-img>h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #112e3e;
+    text-transform: uppercase;
+}
+
+.real-img>p {
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #112e3e;
+    text-transform: uppercase;
+}
+
+.pictures {
+    display: flex;
+    width: 56%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#mosaique {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.cord {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project>h3 {
+    font-size: 30px;
+    padding: 10px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #112e3e;
+    text-transform: uppercase;
+}
+
+.project>p {
+    font-size: 15px;
+    line-height: 15px;
+    color: #112e3e;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contenaire {
+    display: flex;
+    width: 60%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.carte>h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 20px;
+    color: #112e3e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.carte>p {
+    font-size: 16px;
+    line-height: 29px;
+    color: #112e3e;
+}
+
+.carte>ul {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.carte>ul>li>a {
+    color: #112e3e;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+}
+
+.carte>ul>li {
+    text-decoration: none;
+    outline: none;
+}
+
+.carte>ul>li>a:hover {
+    transition: color 1s ease;
+    color: #edd154;
+}
