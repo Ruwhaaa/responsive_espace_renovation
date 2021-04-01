@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,24 +24,31 @@
                     <li><a href="index.html" title="réalisation">réalisations</a></li>
                     <li><a href="index.html" title="contact">contact</a></li>
                 </ul>
+                <div id="CmdMenu" title="Afficher/Masquer le Menu">&#9776;</div>
             </nav>
         </header>
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <h2>rénovation<br>
-                        <span class="yellow">de bureau</span></h2>
-                    <img src="src/Espace Renovation/PHOTO-BUREAU.jpg" alt="Bureau">
+                    <div class="resize">
+                        <h2>rénovation<br>
+                            <span class="yellow">de bureau</span></h2>
+                        <img src="src/Espace Renovation/PHOTO-BUREAU.jpg" alt="Bureau">
+                    </div>
                 </div>
                 <div class="swiper-slide">
-                    <h2>rénovation<br>
-                        <span class="yellow">de maison</span></h2>
-                    <img src="src/Espace Renovation/PHOTO-MAISON.jpg" alt="Bureau">
+                    <div class="resize">
+                        <h2>rénovation<br>
+                            <span class="yellow">de maison</span></h2>
+                        <img src="src/Espace Renovation/PHOTO-MAISON.jpg" alt="Bureau">
+                    </div>
                 </div>
                 <div class="swiper-slide">
-                    <h2>rénovation<br>
-                        <span class="yellow">D'APPARTEMENT</span></h2>
-                    <img src="src/Espace Renovation/PHOTO-APPARTEMENT.jpg" alt="Bureau">
+                    <div class="resize">
+                        <h2>rénovation<br>
+                            <span class="yellow">D'APPARTEMENT</span></h2>
+                        <img src="src/Espace Renovation/PHOTO-APPARTEMENT.jpg" alt="Bureau">
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,31 +141,52 @@
                 <p>nos coordonées</p>
             </div>
             <div class="contenaire">
-                <div class="carte">
+                <div class="carte_2">
                     <img src="src/Espace Renovation/PictoBureaux.png" alt="bureaux">
                     <h4>à nos bureaux</h4>
                     <p>43 rue boursault</p>
                     <p>75017 paris</p>
                 </div>
-                <div class="carte">
+                <div class="carte_2">
                     <img src="src/Espace Renovation/PictoMail.png" alt="bureaux">
                     <h4>par e-mail ou téléphone</h4>
                     <ul>
                         <li><a href="#">01 40 05 94 10</a></li>
                         <li><a href="#">06 80 98 66 93</a></li>
-                        <li><a href="#">info@espace-renovation.fr</a</li>
+                        <li><a href="#">info@espace-renovation.fr</a>   </li>
                     </ul>
                 </div>
-                <div class="carte">
+                <div class="carte_2">
                     <img src="src/Espace Renovation/PictoForm.png" alt="bureaux">
                     <h4>par formulaire</h4>
+                    <ul>
+                        <li><a href="#">à remplir ici !</a></li>
+                    </ul>
                 </div>
-
             </div>
-
         </section>
     </main>
     <footer>
+        <div class="intervention">
+            <img src="src/Espace Renovation/LOGO.png" alt="logo">
+            <div class="text">
+                <p>Peinture – Plomberie – Chauffage – Électricité –</p>
+                <p>Maçonnerie – Plâtrerie – Carrelage – Menuiserie –</p>
+                <p>Parquet – Agencement – Étude et réalisation de plans</p>
+            </div>
+            <div class="contact">
+                <h3>contactez-nous</h3>
+                <ul>
+                    <li>43 rue boursault</li>
+                    <li>75017 Paris</li>
+                    <li>01 40 05 94 10</li>
+                    <li>info@espace-renovation.fr</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2020 studio-creacom.fr Charlène Tavares - Mentions légales</p>
+        </div>
     </footer>
     <script type="text/javascript" src="js/app.js"></script>
 </body>

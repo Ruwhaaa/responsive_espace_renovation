@@ -1,0 +1,214 @@
+@media (max-width: 1441px) {
+
+    header>img {
+        position: relative;
+        left: 120px;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    nav>ul {
+        position: relative;
+        bottom: 15px;
+        right: 120px;
+    }
+
+    .resize>img {
+        position: relative;
+        top: 41px;    
+    }
+
+    .resize>h2 {
+        position: relative;
+        z-index: 10;
+        top: 300px;
+        left: 120px;
+    }
+
+    .swiper-slide {
+        height: 100%
+    }
+
+    .swiper-container  {
+        height: 640px;
+        width: 100%;
+    }
+
+    .description {
+        position: relative;
+        margin-bottom: 100px;
+        top: 0px;
+        bottom: 100px;
+    }
+
+    .detail {
+        width: 75%;
+    }
+
+    .article {
+        width: 75%;
+    }
+
+    .pictures {
+        width: 75%;
+    }
+
+    .project {
+        width: 75%;
+    }
+
+    .contenaire {
+        width: 75%;
+    }
+
+    .intervention {
+        width: 75%;
+    
+    }
+
+    @media (max-width: 1025px) {
+
+        header>img {
+            position: relative;
+            left: 30px;
+        }
+    
+        header {
+            justify-content: space-between;
+        }
+    
+        nav>ul {
+            position: relative;
+            bottom: 15px;
+            right: 30px;
+        }
+    
+        .resize>img {
+            position: relative;
+            top: 50;    
+        }
+    
+        .resize>h2 {
+            position: relative;
+            top: 275px;
+            left: 120px;
+        }
+    
+        .swiper-slide {
+            height: 100%
+        }
+    
+        .swiper-container  {
+            height: 550px;
+            width: 100%;
+        }
+    
+        .description {
+            position: relative;
+            margin-bottom: 100px;
+            top: 0px;
+            bottom: 0px;
+        }
+    
+        .detail {
+            width: 95%;
+        }
+    
+        .article {
+            width: 100%;
+        }
+    
+        .pictures {
+            justify-content: space-evenly;
+            width: 95%;
+        }
+    
+        .project {
+            width: 100%;
+        }
+    
+        .contenaire {
+            width: 100%;
+        }
+    
+        .intervention {
+            width: 98%;
+        }
+    }
+
+    @media (max-width: 769px) {
+
+        header>img {
+            position: relative;
+            left: 30px;
+        }
+    
+        header {
+            justify-content: space-between;
+        }
+    
+        nav>ul {
+            position: relative;
+            bottom: 15px;
+            right: 30px;
+        }
+    
+        .resize>img {
+            position: relative;
+            top: 50;    
+        }
+    
+        .resize>h2 {
+            position: relative;
+            top: 275px;
+            left: 120px;
+        }
+    
+        .swiper-slide {
+            height: 100%
+        }
+    
+        .swiper-container  {
+            height: 550px;
+            width: 100%;
+        }
+    
+        .description {
+            position: relative;
+            margin-bottom: 100px;
+            top: 0px;
+            bottom: 0px;
+        }
+    
+        .detail {
+            width: 95%;
+        }
+    
+        .article {
+            width: 100%;
+        }
+    
+        .pictures {
+            justify-content: space-evenly;
+            width: 100%;
+        }
+
+        .real-img>img {
+            max-height: 450px;
+            max-width: 580px;
+        }
+    
+        .project {
+            width: 100%;
+        }
+    
+        .contenaire {
+            width: 100%;
+        }
+    
+        .intervention {
+            width: 98%;
+        }
+    }
